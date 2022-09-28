@@ -1,0 +1,225 @@
+<!--
+JUAN SEBASTIAN ZABALETA HORTA
+UNIVERSIDAD NACIONAL ABIERTA A Y DISTANCIA 
+INGENIERIA MULTIMEDIA 5 SEMESTRE PROGRAMACIÓN DE PAGINAS WEB
+ID 1081814034 GRUPO 213025_2 
+TUTOR A CARGO DEL LA MATERIA: JUAN PABLO RODRIGUEZ
+PAGINA WEB ESTATICA CON SCROLL FINITO
+-->
+<!DOCTYPE html>
+    <html lang="en/es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Foro, pagina de venta de la franquisia de Resident Evil, pagina oficial de CAPCOM">
+        <meta name="robots"content="index,follow">
+        <meat name="viewport" content="width=device-width, inictial-scale=1.0"></meat>
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Resident Evil</title> 
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Resident Evil</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#personajes" class="nav__link">Personajes</a></li>
+                        <li class="nav__item"><a href="#juegos" class="nav__link">Gratis</a></li>
+                        <li class="nav__item"><a href="#juegosPagos" class="nav__link">Comprar</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="inicio" id="inicio">
+                <div class="inicio__container bd-container bd-grid">
+                    <div class="inicio__img">
+                        <img src="img/Inicio.jpg" alt="">
+                    </div>
+
+                    <div class="inicio__data">
+                        <h1 class="inicio__title">Resident Evil</h1>
+                        <p class="inicio__description">Resident evil es una de las mejores franquicias de video juegos que ha existido sobre zombies</p>
+                        <a href="#" class="button">Inicia tu aventura</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== FEATURES ==========-->
+            <section class="personajes section bd-container" id="personajes">
+                <div class="personajes__container bd-grid">
+                    <div class="personajes__data">
+                        <h2 class="section-title-center">Personajes de la Saga <br>Resident Evil </h2>
+                        <p class="personaje__description">Comparte con nosotros y aprende mas de la historia de cada uno de los personajes de tu franquicia favorita, con un solo click conoceras su historia y motivaciones</p>
+                        <a href="#" class="button">Ver mas aqui</a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="img/personajes.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== FREE GAMES ==========-->
+            <section class="juegos section bd-container" id="juegos">
+                <h2 class="section-title">Resident Evil <br>download </h2>
+                <div class="juegos__container bd-grid">
+                    <div class="juegos__data">
+                        <img src="img/juego1.jpg" alt="" class="juego__img">
+                        <h3 class="juegos__title">Resident Evil 2</h3>
+                        <a href="#" class="button button-link">Free</a>
+                    </div>
+
+                    <div class="juegos__data">
+                        <img src="img/juego 3.jpg"alt="" class="juego__img">
+                        <h3 class="juegos__title">Resident Evil 3:Nemesis</h3>
+                        <a href="#" class="button button-link">Free</a>
+                    </div>
+
+                    <div class="juegos__data">
+                        <img src="img/juego4.jpg"alt="" class="juego__img">
+                        <h3 class="juegos__title">Resident Evil Suvivor</h3>
+                        <a href="#" class="button button-link">Free</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== PAID GAMES ==========-->
+            <section class="juegosPagos section bd-container" id="juegosPagos">
+                <h2 class="section-title"> Resident Evil <br>Payments</h2>
+
+                <div class="juegosPagos__container bd-grid">
+                    <div class="juegosPagos__content">
+                        <img src="img/juegosPagos1.jpg" alt="" class="juegoPagos__img">
+                        <h3 class="juegosPagos__title">ResidentEvil4</h3>
+                        <span class="juegosPagos__category">juegosPagos</span>
+                        <span class="juegosPagos__preci">$15.55</span>
+                        <a href="#" class="button juegosPagos__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="juegosPagos__content">
+                        <img src="img/juegosPagos2.jpg" alt="" class="juegoPagos__img">
+                        <h3 class="juegosPagos__title">ResidentEvil5</h3>
+                        <span class="juegosPagos__category">juegosPagos</span>
+                        <span class="juegosPagos__preci">$25.2</span>
+                        <a href="#" class="button juegosPagos__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="juegosPagos__content">
+                        <img src="img/juegosPagos3.jpg" alt="" class="juegosPagos__img">
+                        <h3 class="juegosPagos__title">ResidentEvil6</h3>
+                        <span class="juegosPagos__category">juegosPagos</span>
+                        <span class="juegosPagos__preci">$23.15</span>
+                        <a href="#" class="button juegosPagos__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="juegosPagos__content">
+                        <img src="img/juegosPagos4 .jpg" alt="" class="juegosPagos__img">
+                        <h3 class="juegosPagos__title">ResidentEvil7</h3>
+                        <span class="juegosPagos__category">juegosPagos</span>
+                        <span class="juegosPagos__preci">$25.50</span>
+                        <a href="#" class="button juegosPagos__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="juegosPagos__content">
+                        <img src="img/juegosPagos5.jpg" alt="" class="juegosPagos__img">
+                        <h3 class="juegosPagos__title">ResidentEvil8</h3>
+                        <span class="juegosPagos__category">juegosPagos</span>
+                        <span class="juegosPagos__preci">$29.99</span>
+                        <a href="#" class="button juegosPagos__button"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== GIFTS ==========-->
+            <section class="regalos">
+                <div class="regalos__container bd-container bd-grid">
+                    <div class="regalos__content">
+                        <h2 class="section-title-center regalos__title"> Regala el terror</h2>
+                        <p class="regalos__description">Regala uno de los mejores juegos de nuestra franquicia a esa persona que se lo merece y disfrute con nosotros el suspenso</p>
+                        <form action="">
+                            <div class="regalos__direction">
+                                <input type="text" placeholder="nick name" class="regalos__input">
+                                <a href="#" class="button">Send</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="regalos__img">
+                        <img src="img/regalo.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">FANDON</a>
+                    </h3>
+                    <p class="footer__description">Mira las creaciones<br>y estilos del FANDON</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nuestro servicio</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Tiendas virtuales</a></li>
+                        <li><a href="#" class="footer__link">Solución de bug</a></li>
+                        <li><a href="#" class="footer__link">Tiendas fisicas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Compañia CAPCOM</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pagina oficial</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 Bedimcode. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <Script src="https://unpkg.com/scrollreveal"></script> 
+        <!--========== MAIN JS ==========-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
+<!--
+    THE COMMENTS ARE IN ENGLISH DUE TO THE HABIT OF WORKING IN GROUPS AND IT IS FASTER TO UNDERSTAND 
+    FOR ALL THE PROGRAMMERS WHO READ THE PROJECT, IT IS ALSO IMPORTANT TO MENTION THAT IT IS USED 
+    GERARCHY FUNCTIONS.
+-->
